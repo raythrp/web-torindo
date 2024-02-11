@@ -2,26 +2,44 @@
 
 class Home extends Controller{
     public function index() {
-        $this->view('home/index');
+        $data = [
+            'title' => 'Torindo Jaya Persada'
+        ];
+        $this->view('home/index', $data);
     }
 
     public function about() {
-        $this->view('home/about');
+        $data = [
+            'title' => 'About Torindo Jaya Persada'
+        ];
+        $this->view('home/about', $data);
     }
 
     public function contact() {
-        $this->view('home/contact');
+        $data = [
+            'title' => 'Contact Torindo Jaya Persada'
+        ];
+        $this->view('home/contact', $data);
     }
 
     public function products() {
-        $this->view('home/products');
+        $data = [
+            'title' => 'Torindo Jaya Persada Products'
+        ];
+        $this->view('home/products', $data);
     }
 
     public function recruitment() {
-        $this->view('home/recruitment');
+        $data = [
+            'title' => 'Torindo Jaya Persada Recruitment Service'
+        ];
+        $this->view('home/recruitment', $data);
     }
 
     public function umrah() {
-        $this->view('home/umrah');
+        $data = [
+            'title' => 'Torindo Jaya Persada Umrah Traver & Service'
+        ];
+        $this->view('home/umrah', $data);
     }
 }
