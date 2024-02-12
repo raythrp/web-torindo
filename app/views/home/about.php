@@ -1,13 +1,13 @@
-<link rel="stylesheet" href="public/css/styles-landing.css">
+<link rel="stylesheet" href="public/css/styles-about.css">
 
     <header>
         <nav>
             <h1 class="logo">Torindo Jaya <br>Persada</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Product</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="index">Home</a></li>
+                <li><a href="about"><span>About Us</span></a></li>
+                <li><a href="products">Our Product</a></li>
+                <li><a href="contact">Contact Us</a></li>
             </ul>
         </nav>
     </header>
@@ -21,6 +21,7 @@
                 <p class="scroll">Scroll down to see more!</p>
             </div>
         </div>
+
         <div class="vision">
             <div class="title">
                 <h1>Torindo's Vision</h1>
@@ -46,5 +47,9 @@
                 <h1>The Ultimate <span>GOAL</span></h1>
                 <p>Achieve consistent business growth and profitability. We accomplish this by developing lasting partnerships with our customers, taking advantage of the latest technological advances and being a good corporate citizen.</p>
             </div>
+        </div>
+
+        <div class="achievements">
+            
         </div>
     </main>

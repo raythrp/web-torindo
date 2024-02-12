@@ -1,214 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,600;1,700;1,800&family=Silkscreen&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing for better layout control */
 }
 
-body{
-    height: 400vh;
-    background:linear-gradient(to bottom,#0373BA, #000D15);
-    overflow-x: hidden;
+body, html {
+    width: 100%;
+    height: 100%;
 }
 
-h1{
-    text-align: center;
-    margin:20px 0px 80px 0px;
-    font-family: 'poppins';
-    color: white;
-    font-size: 6.5rem;
-}
+body {
+    font-family: 'Poppins', sans-serif;
+}   
 
-i{
-    text-align: center;
-    margin:20px 0px 20px 0px;
-    font-family: 'poppins';
-    color: #27A4D8;
-}
-
-.container-box{
-    background: white;
-    transform: rotate(-4deg);
-    margin:0px -20px 0px -20px;
-}
-
-.biggest-box{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 100;
-    font-family: 'poppins';
-    font-size:3.2rem;
-}
-
-.biggest-box span{
+.logo {
+    order: 1;
+    color: #FFF;
+    font-size: 1.2rem;
     font-weight: 700;
+    line-height: normal;
 }
 
-.biggest-box p{ 
-    background-image: linear-gradient(#0373BA, #000D15);
-    background-clip: text;
-    color: transparent;
+nav {
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* Adjusted height for better visibility */
+    padding: 1.6rem 5rem 0 5rem; /* Added padding for spacing */
 }
 
-
-
-.years #ten{
-    font-family: 'poppins';
-    font-style: italic;
-    font-weight: 800;
-    font-size: 13rem;
-    color: white;
-    transform: rotate(-4deg);
-    margin: 90px 110px;
-}
-
-.years #text1{
-    font-family: 'poppins';
-    font-size: 3rem;
-    color: white;
-    text-align: left;
+nav::before {
+    content: "";
     position: absolute;
-    top: 79vh;
-    left: 79vh;
-    transform: rotate(-2deg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Adjust the last value for background opacity */
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    z-index: -1; /* Place the pseudo-element behind the actual content */
 }
 
-.years #span1{
-    font-family: 'poppins';
-    font-style: italic;
-    font-weight: 800;
-    color: #27A4D8;
+nav ul {
+    display: flex;
+    order: 2;
+    list-style: none;
 }
 
-.years #span2{
+nav ul a {
+    color: #FFF;
+    font-size: 1rem; /* Adjusted font size */
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 2rem;
+    text-decoration: none;
+}
+
+nav ul a span{
     font-weight: 600;
 }
 
-
-.global h2{
-    font-family: 'poppins';
-    font-weight: 700;
-    font-size: 3.5rem;
-    color:white;
-    text-align: right;
-    margin-right: 70px;
+nav ul a:hover {
+    color: #FFF;
+    font-size: 1rem; /* Adjusted font size */
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 2rem;
+    text-decoration: underline;
 }
 
-.global #span1{
-    color: #27A4D8;
-    font-style: italic;
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
-.global p{
-    font-family: 'poppins';
-    font-size: 3rem;
-    color:white;
-    text-align: right;
-    width: 65vw;
-    margin-left:29%;
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.invest h2{
-    font-family: 'poppins';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 3.5rem;
-    color:white;
+.motto {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+}
+
+.motto p {
+    color: #ffffff;
     text-align: left;
-    margin: 90px 0px 0px 110px;
-}  
-
-.invest p{
-    font-family: 'poppins';
-    font-size: 2rem;
-    color:white;
-    text-align: left;
-    width: 70vw;
-    margin-left:8.5%;
-    margin-bottom: 90px;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
-.invest span{
-    font-style: italic;
-    font-weight:700;
+.motto h1 {
     color: #27A4D8;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
-.icon1{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-    justify-content: center;
-    width: 100vw;
+.motto span {
+    color: #004AAD;
 }
 
-.icon1 #icon01{
-    width: 100px;
+.motto .scroll {
+    color: #D9D9D9;
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
-.icon1 #icon02{
-    width: 125px;
-}
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 10px;
+    }
 
-.icon1 .icon01{
-    font-family: 'poppins';
-    font-size:1.5rem;
-    font-weight:700;
-    text-align:center;
-    color: white;
-    width:50vh;
-}
+    nav ul {
+        margin-top: 10px;
+    }
 
-.icon1 .icon02{
-    font-family: 'poppins';
-    font-size:1.5rem;
-    font-weight:700;
-    text-align:center;
-    color: white;
-    width: 60vh;
-    margin:0px 15vh 0px 15vh;
+    nav ul a {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
-
-.icon1 .icon03{
-    font-family: 'poppins';
-    font-size:1.5rem;
-    font-weight:700;
-    text-align:center;
-    color: white;
-    width: 50vh;
-}
-
-.icon2{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-around;
-    width: 100vw;
-}
-
-.icon2 #icon01{
-    width: 120px;
-    margin-right:4vh;
-    margin-top:25vh;
-}
-
-.icon2 .icon01{
-    font-family: 'poppins';
-    font-size:1.5rem;
-    font-weight:700;
-    text-align:center;
-    color: white;
-    width:50vh;
-    margin-left: 90px;
-}
-
-.icon2 .icon02{
-    font-family: 'poppins';
-    font-size:1.5rem;
-    font-weight:700;
-    text-align:center;
-    color: white;
-    width:50vh;
-}
-

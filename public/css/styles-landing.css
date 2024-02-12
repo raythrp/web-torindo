@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,600;1,700;1,800&family=Silkscreen&display=swap'); 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Added box-sizing for better layout control */
-}
-
-body, html {
-    width: 100%;
-    height: 100%;
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    height: 400vh;
+    background:linear-gradient(to bottom,#0373BA, #000D15);
+    overflow-x: hidden;
+    font-family: 'poppins';
 }
 
 .logo {
@@ -27,14 +25,25 @@ nav {
     display: flex;
     z-index: 2;
     position: fixed;
-    margin-top: 2rem;
     top: 0;
     left: 0;
     right: 0;
     justify-content: space-between;
     align-items: center;
     height: 80px; /* Adjusted height for better visibility */
-    padding: 0 50px; /* Added padding for spacing */
+    padding: 1.6rem 5rem 0 5rem; /* Added padding for spacing */
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Adjust the last value for background opacity */
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    z-index: -1; /* Place the pseudo-element behind the actual content */
 }
 
 nav ul {
@@ -46,10 +55,23 @@ nav ul {
 nav ul a {
     color: #FFF;
     font-size: 1rem; /* Adjusted font size */
-    font-weight: 500;
+    font-weight: 300;
     line-height: normal;
-    margin-right: 2rem; /* Adjusted margin */
+    margin-left: 2rem;
     text-decoration: none;
+}
+
+nav ul a span{
+    font-weight: 600;
+}
+
+nav ul a:hover {
+    color: #FFF;
+    font-size: 1rem; /* Adjusted font size */
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 2rem;
+    text-decoration: underline;
 }
 
 .hero {
@@ -62,7 +84,7 @@ nav ul a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    filter: blur(5px);
+    /* filter: blur(5px); */
 }
 
 .motto {
@@ -123,3 +145,204 @@ nav ul a {
         margin-bottom: 10px;
     }
 }
+
+h1{
+    text-align: center;
+    margin:20px 0px 80px 0px;
+    font-family: 'poppins';
+    color: white;
+    font-size: 6.5rem;
+}
+
+i{
+    text-align: center;
+    margin:20px 0px 20px 0px;
+    font-family: 'poppins';
+    color: #27A4D8;
+}
+
+.container-box{
+    background: white;
+    transform: rotate(-4deg);
+    margin:0px -20px 0px -20px;
+}
+
+.biggest-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100;
+    font-family: 'poppins';
+    font-size:3.2rem;
+}
+
+.biggest-box span{
+    font-weight: 700;
+}
+
+.biggest-box p{ 
+    background-image: linear-gradient(#0373BA, #000D15);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.years #ten{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 13rem;
+    color: white;
+    transform: rotate(-4deg);
+    margin: 90px 110px;
+}
+
+.years #text1{
+    font-family: 'poppins';
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 79vh;
+    left: 79vh;
+    transform: rotate(-2deg);
+}
+
+.years #span1{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 800;
+    color: #27A4D8;
+}
+
+.years #span2{
+    font-weight: 600;
+}
+
+
+.global h2{
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:white;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.global #span1{
+    color: #27A4D8;
+    font-style: italic;
+}
+
+.global p{
+    font-family: 'poppins';
+    font-size: 3rem;
+    color:white;
+    text-align: right;
+    width: 65vw;
+    margin-left:29%;
+}
+
+.invest h2{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:white;
+    text-align: left;
+    margin: 90px 0px 0px 110px;
+}  
+
+.invest p{
+    font-family: 'poppins';
+    font-size: 2rem;
+    color:white;
+    text-align: left;
+    width: 70vw;
+    margin-left:8.5%;
+    margin-bottom: 90px;
+}
+
+.invest span{
+    font-style: italic;
+    font-weight:700;
+    color: #27A4D8;
+}
+
+.icon1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    justify-content: center;
+    width: 100vw;
+}
+
+.icon1 #icon01{
+    width: 100px;
+}
+
+.icon1 #icon02{
+    width: 125px;
+}
+
+.icon1 .icon01{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+}
+
+.icon1 .icon02{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width: 60vh;
+    margin:0px 15vh 0px 15vh;
+}
+
+.icon1 .icon03{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width: 50vh;
+}
+
+.icon2{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100vw;
+}
+
+.icon2 #icon01{
+    width: 120px;
+    margin-right:4vh;
+    margin-top:25vh;
+}
+
+.icon2 .icon01{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+    margin-left: 90px;
+}
+
+.icon2 .icon02{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+}
+
