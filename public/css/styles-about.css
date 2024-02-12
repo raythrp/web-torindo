@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 330vh;
+    height: 400vh;
     background:linear-gradient(to bottom,#0373BA, #000D15);
     overflow-x: hidden;
 }
@@ -127,6 +127,7 @@ i{
     text-align: left;
     width: 70vw;
     margin-left:8.5%;
+    margin-bottom: 90px;
 }
 
 .invest span{
@@ -135,4 +136,79 @@ i{
     color: #27A4D8;
 }
 
+.icon1{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    justify-content: center;
+    width: 100vw;
+}
+
+.icon1 #icon01{
+    width: 100px;
+}
+
+.icon1 #icon02{
+    width: 125px;
+}
+
+.icon1 .icon01{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+}
+
+.icon1 .icon02{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width: 60vh;
+    margin:0px 15vh 0px 15vh;
+}
+
+.icon1 .icon03{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width: 50vh;
+}
+
+.icon2{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100vw;
+}
+
+.icon2 #icon01{
+    width: 120px;
+    margin-right:4vh;
+    margin-top:25vh;
+}
+
+.icon2 .icon01{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+    margin-left: 90px;
+}
+
+.icon2 .icon02{
+    font-family: 'poppins';
+    font-size:1.5rem;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    width:50vh;
+}
 
