@@ -7,14 +7,17 @@
 }
 
 body{
-    background:linear-gradient(to bottom  ,#0373BA, #000D15);
+    height: 330vh;
+    background:linear-gradient(to bottom,#0373BA, #000D15);
+    overflow-x: hidden;
 }
 
 h1{
     text-align: center;
-    margin:20px 0px 20px 0px;
+    margin:20px 0px 80px 0px;
     font-family: 'poppins';
     color: white;
+    font-size: 6.5rem;
 }
 
 i{
@@ -24,10 +27,112 @@ i{
     color: #27A4D8;
 }
 
+.container-box{
+    background: white;
+    transform: rotate(-4deg);
+    margin:0px -20px 0px -20px;
+}
+
 .biggest-box{
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 100;
     font-family: 'poppins';
+    font-size:3.2rem;
 }
+
+.biggest-box span{
+    font-weight: 700;
+}
+
+.biggest-box p{ 
+    background-image: linear-gradient(#0373BA, #000D15);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.years #ten{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 13rem;
+    color: white;
+    transform: rotate(-4deg);
+    margin: 90px 110px;
+}
+
+.years #text1{
+    font-family: 'poppins';
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 79vh;
+    left: 79vh;
+    transform: rotate(-2deg);
+}
+
+.years #span1{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 800;
+    color: #27A4D8;
+}
+
+.years #span2{
+    font-weight: 600;
+}
+
+
+.global h2{
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:white;
+    text-align: right;
+    margin-right: 70px;
+}
+
+.global #span1{
+    color: #27A4D8;
+    font-style: italic;
+}
+
+.global p{
+    font-family: 'poppins';
+    font-size: 3rem;
+    color:white;
+    text-align: right;
+    width: 65vw;
+    margin-left:29%;
+}
+
+.invest h2{
+    font-family: 'poppins';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:white;
+    text-align: left;
+    margin: 90px 0px 0px 110px;
+}  
+
+.invest p{
+    font-family: 'poppins';
+    font-size: 2rem;
+    color:white;
+    text-align: left;
+    width: 70vw;
+    margin-left:8.5%;
+}
+
+.invest span{
+    font-style: italic;
+    font-weight:700;
+    color: #27A4D8;
+}
+
+
