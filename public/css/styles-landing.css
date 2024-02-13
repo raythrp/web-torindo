@@ -7,7 +7,7 @@
 }
 
 body {
-    height: 400vh;
+    height: 500vh;
     background:linear-gradient(to bottom,#0373BA, #000D15);
     overflow-x: hidden;
     font-family: 'poppins';
@@ -149,15 +149,13 @@ nav ul a:hover {
 h1{
     text-align: center;
     margin:20px 0px 80px 0px;
-    font-family: 'poppins';
     color: white;
     font-size: 6.5rem;
 }
 
-i{
+#italic{
     text-align: center;
     margin:20px 0px 20px 0px;
-    font-family: 'poppins';
     color: #27A4D8;
 }
 
@@ -172,7 +170,6 @@ i{
     justify-content: center;
     align-content: center;
     margin-top: 100;
-    font-family: 'poppins';
     font-size:3.2rem;
 }
 
@@ -186,10 +183,7 @@ i{
     color: transparent;
 }
 
-
-
 .years #ten{
-    font-family: 'poppins';
     font-style: italic;
     font-weight: 800;
     font-size: 13rem;
@@ -199,18 +193,16 @@ i{
 }
 
 .years #text1{
-    font-family: 'poppins';
     font-size: 3rem;
     color: white;
     text-align: left;
     position: absolute;
-    top: 79vh;
+    top: 178vh;
     left: 79vh;
     transform: rotate(-2deg);
 }
 
 .years #span1{
-    font-family: 'poppins';
     font-style: italic;
     font-weight: 800;
     color: #27A4D8;
@@ -220,9 +212,7 @@ i{
     font-weight: 600;
 }
 
-
 .global h2{
-    font-family: 'poppins';
     font-weight: 700;
     font-size: 3.5rem;
     color:white;
@@ -236,7 +226,6 @@ i{
 }
 
 .global p{
-    font-family: 'poppins';
     font-size: 3rem;
     color:white;
     text-align: right;
@@ -245,7 +234,6 @@ i{
 }
 
 .invest h2{
-    font-family: 'poppins';
     font-style: italic;
     font-weight: 700;
     font-size: 3.5rem;
@@ -255,7 +243,6 @@ i{
 }  
 
 .invest p{
-    font-family: 'poppins';
     font-size: 2rem;
     color:white;
     text-align: left;
@@ -287,7 +274,6 @@ i{
 }
 
 .icon1 .icon01{
-    font-family: 'poppins';
     font-size:1.5rem;
     font-weight:700;
     text-align:center;
@@ -296,7 +282,6 @@ i{
 }
 
 .icon1 .icon02{
-    font-family: 'poppins';
     font-size:1.5rem;
     font-weight:700;
     text-align:center;
@@ -306,7 +291,6 @@ i{
 }
 
 .icon1 .icon03{
-    font-family: 'poppins';
     font-size:1.5rem;
     font-weight:700;
     text-align:center;
@@ -328,21 +312,44 @@ i{
 }
 
 .icon2 .icon01{
-    font-family: 'poppins';
     font-size:1.5rem;
     font-weight:700;
     text-align:center;
     color: white;
-    width:50vh;
-    margin-left: 90px;
+    width:40vh;
+    margin-right: 100px;
 }
 
 .icon2 .icon02{
-    font-family: 'poppins';
     font-size:1.5rem;
     font-weight:700;
     text-align:center;
     color: white;
-    width:50vh;
+    width:30vh;
+    margin-left:-30vw;
 }
 
+.know{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.know p{
+    margin-top: 100px;
+    color:white;
+    font-size: 2rem;
+}
+
+#get{
+    margin-top:40px;
+    background: #0E2B3D;
+    backdrop-filter: blur(100px);
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    padding:10px 50px;
+    text-decoration: none;
+}

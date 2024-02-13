@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <h1><i>Why </i>choose us?</h1>
+        <h1><i id="italic">Why </i>choose us?</h1>
         <div class="container-box">
             <div class="biggest-box">
                 <p><span>No 1 BIGGEST </span>population China product in</p>
@@ -60,9 +60,12 @@
               </div>
               <div class="icon02">
                      <img id="icon01" src="public/icon-img/achievement.svg" alt="achievement"/>
-                     <p>DELIVERING PREMIUM PRODUCTS TO ITS GLOBAL CUSTOMER</p>
+                     <p>24/7 EASY TO CONTACT US</p>
               </div>
          </div>
-        
+        <div class="know">
+              <p><i>What are you waiting for?</i></p>
+              <a id="get" href="about"><b>Get to know us more</b></a>
+        </div>
 
 <!-- Line terakhir untuk include javasript *kalau ada -->
