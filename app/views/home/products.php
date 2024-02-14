@@ -27,6 +27,8 @@
                 <p><span>Mining</span> Products</p>
             </div>
             <div class="isi1">
+                    <img src="" alt="">
+                    <h1><span id="h1">Mining</span> Truck</h1>
                     <p><span>Providing you with pristine, state-of-the art</span> dump truck, wide body trucks, and rigid dump truck with proven track records from various mining companies throughout the world</p>
             </div>
         </div>

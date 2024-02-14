@@ -7,13 +7,14 @@
 }
 
 body {
-    height: 500vh;
+    height: 100%;
+    width: 100%;
     background:linear-gradient(to bottom,#0373BA, #000D15);
     overflow-x: hidden;
     font-family: 'poppins';
 }
 
-.logo {
+.logo{
     order: 1;
     color: #FFF;
     font-size: 1.2rem;

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="public/css/styles-landing.css"> <!-- Line 1 untuk include css -->
 <header>
         <nav>
-            <h1 class="logo">Torindo Jaya <br>Persada</h1>
+            <h1 class="logo">Torindo Jaya<br>Persada</h1>
             <ul>
                 <li><a href="index"><span>Home</span></a></li>
                 <li><a href="about">About Us</a></li>
