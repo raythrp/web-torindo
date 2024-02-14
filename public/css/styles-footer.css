@@ -1,0 +1,27 @@
+footer {
+    margin: 4rem 0 0 0;
+    padding: 2rem 4rem 2rem 4rem;
+    background-color: #a8a8a8;
+    color: white;
+}
+
+footer .copy {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.content {
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.content .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+

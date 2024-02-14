@@ -128,21 +128,133 @@ nav ul a:hover {
     line-height: normal;
 }
 
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.vision-title {
+    margin: 6rem 10rem 0 10rem;
+    font-size: 1.3rem;
+}
+
+.vision-title span {
+    color: #004AAD;
+}
+
+.vision-motto {
+    margin-top: 6rem;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-motto img {
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    object-fit: cover;
+    filter: brightness(82%);
+}
+
+.vision-motto p {
+    z-index: 1;
+    color: white;
+    font-weight: 200;
+    font-size: 1.1rem;
+    position: relative;
+    text-align: center;
+}
+
+.vision-motto span {
+    font-weight: 600;
+}
+
+.vision-achieve {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.vision-achieve .top {
+    display: flex;
+    margin: 6rem 10rem 0 10rem;
+    gap: 2rem;
+}
+
+.vision-achieve .top .big{
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.vision-achieve .top .med{
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 35%;
+}
+
+.vision-achieve .top .med span{
+    font-weight: 600;
+    color: #004AAD;
+}
+
+.vision-achieve .bottom {
+    margin: 0.8rem 10rem 0 10rem;
+}
+
+.vision-goal {
+    display: flex;
+    margin: 6rem 10rem 0 10rem;
+}
+
+.vision-goal .big span {
+    color: #004AAD;
+}
+
+.vision-goal .content {
+    margin: 0 10rem 0 0.9rem;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements .title {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 1.3rem;
+}
+
+.achievements .title span {
+    color: #004AAD;
+}
+
+.achievements .content {
+    margin: 4rem 6rem 0 6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.achievements .content span{
+    color: #004AAD;
+    font-weight: 700;
+}
+
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 10px;
-    }
 
-    nav ul {
-        margin-top: 10px;
-    }
-
-    nav ul a {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
 }
