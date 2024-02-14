@@ -59,7 +59,7 @@
                      <p>PRODUCT SUPPORT CAPABILITIES</p>
               </div>
               <div class="icon02">
-                     <img id="icon01" src="public/icon-img/achievement.svg" alt="achievement"/>
+                     <img id="icon01" src="public/icon-img/phone.svg" alt="achievement"/>
                      <p>24/7 EASY TO CONTACT US</p>
               </div>
          </div>

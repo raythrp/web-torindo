@@ -143,3 +143,40 @@ nav ul a:hover {
         margin-bottom: 10px;
     }
 }
+
+
+
+.page1 img{
+    width:100px;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:20vh;
+
+}   
+
+.header1 p{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header1 span{
+    color: #004AAD;
+}
+
+.isi1 p{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.isi1 span{
+    font-weight: 600;
+    color: #004AAD;
+}
+
+
+
