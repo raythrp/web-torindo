@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="public/css/styles-about.css">
+<link rel="stylesheet" href="public/css/styles-umrah.css">
 
     <header>
         <nav>
