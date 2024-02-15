@@ -11,11 +11,21 @@ footer .copy {
     justify-content: end;
 }
 
+footer h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+footer p, a {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
 .content {
     text-align: start;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 
 .content .profile {
@@ -25,3 +35,30 @@ footer .copy {
     align-items: start;
 }
 
+.content .profile h1{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.content .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1.3rem;
+}
+
+.content .nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.content .nav a:hover {
+    text-decoration: underline;
+}

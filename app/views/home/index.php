@@ -41,25 +41,25 @@
          </div>
          <div class="icon1">
               <div class="icon01">
-                     <img id="icon01" src="public/icon-img/mechanical.svg" alt="gear"/>
+                     <img id="icon01" src="public/icon/mechanical.svg" alt="gear"/>
                      <p>ORIGINAL EQUIPMENT MANUFACTURER</p>
               </div>
               <div class="icon02">
-                     <img id="icon01" src="public/icon-img/achievement.svg" alt="achievement"/>
+                     <img id="icon01" src="public/icon/achievement.svg" alt="achievement"/>
                      <p>DELIVERING PREMIUM PRODUCTS TO ITS GLOBAL CUSTOMER</p>
               </div>
               <div class="icon03">
-                     <img id="icon02" src="public/icon-img/people-group.svg" alt="people group"/>
+                     <img id="icon02" src="public/icon/people-group.svg" alt="people group"/>
                      <p>ASSISTED BY EXPERT ADVISORS</p>
               </div>
          </div>
          <div class="icon2">
               <div class="icon01">
-                     <img id="icon01" src="public/icon-img/product.svg" alt="gear"/>
+                     <img id="icon01" src="public/icon/product.svg" alt="gear"/>
                      <p>PRODUCT SUPPORT CAPABILITIES</p>
               </div>
               <div class="icon02">
-                     <img id="icon01" src="public/icon-img/phone.svg" alt="achievement"/>
+                     <img id="icon01" src="public/icon/phone.svg" alt="achievement"/>
                      <p>24/7 EASY TO CONTACT US</p>
               </div>
          </div>

@@ -24,10 +24,10 @@
                 </div> 
             </div>
             <div class="nav">
-                <p>Home</p>
-                <p>About Us</p>
-                <p>Our Product</p>
-                <p>Contact Us</p>
+                <a href="index">Home</a>
+                <a href="about"><span>About Us</span></a>
+                <a href="products">Our Product</a>
+                <a href="contact">Contact Us</a>
             </div>
         </div>
         <p class="copy">&copy; 2024 Torindo Jaya Persada</p>
