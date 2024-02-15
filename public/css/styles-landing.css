@@ -1,22 +1,16 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;1,700&family=Oswald:wght@300;400&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,600;1,700;1,800&family=Silkscreen&display=swap'); 
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 10px;
-    }
-
-    nav ul {
-        margin-top: 10px;
-    }
-
-    nav ul a {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
+body {
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to bottom,#0373BA, #000D15);
+    overflow-x: hidden;
+    font-family: 'poppins';
 }
 
 h1{
@@ -226,3 +220,5 @@ h1{
     padding:10px 50px;
     text-decoration: none;
 }
+
+/* Responsive adjustments */
