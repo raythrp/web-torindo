@@ -21,7 +21,7 @@
 
 
 
-.page1 img{
+.page1 img, .page2 img{
     width:100px;
 }
 
@@ -44,28 +44,74 @@
 }
 
 .isi1{
-    width: 100vh;
-    margin-left:97vh;
+    display: flex;
+    justify-content: space-between;
 }
 
-.isi1 h1{
+.img1 img{
+    width: 400px;
+    margin-left:25vh;
+}
+
+.text1{
+    width: 100vh;
+    margin-right:15vh;
+    margin-top: -1vh;
+}
+
+.text1 h1{
     font-weight: 400;
 }
 
-.isi1 #h1{
+.text1 #h1{
     font-style: italic;
 }
 
-.isi1 p{
+.text1 p{
     font-size: 1.5rem;
     text-align: left;
     font-weight: 300;
 }
 
-.isi1 span{
+.text1 span{
     font-weight: 600;
     color: #004AAD;
 }
 
+/* right content */
 
+.isi2{
+    display: flex;
+    justify-content: space-between;
+}
 
+.img2 img{
+    width: 400px;
+    margin-right:22vh;
+}
+
+.text2{
+    width: 100vh;
+    margin-left:17vh;
+    margin-top: 1vh;
+}
+
+.text2 h1{
+    font-weight: 400;
+    text-align: right;
+}
+
+.text2 #h1{
+    font-style: italic;
+}
+
+.text2 p{
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 300;
+}
+
+.text2 span{
+    font-weight: 600;
+    color: #004AAD;
+}
