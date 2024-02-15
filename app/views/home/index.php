@@ -1,19 +1,5 @@
 <link rel="stylesheet" href="public/css/styles-landing.css"> <!-- Line 1 untuk include css -->
-<header>
-        <nav>
-            <h1 class="logo">Torindo Jaya<br>Persada</h1>
-            <ul>
-                <li><a href="index"><span>Home</span></a></li>
-                <li><a href="about">About Us</a></li>
-                <li><a href="products">Our Product</a></li>
-                <li><a href="contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <div class="hero">
-            <img src="public/img/landingHero.png" alt="">
             <div class="motto">
                 <p>The journey doesn't end with a purchase,</p>
                 <h1>It begins with <span>Us.</span></h1>

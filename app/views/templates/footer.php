@@ -3,13 +3,16 @@
     <footer>
         <div class="content">
             <div class="profile">
-                <img src="" alt="">
-                <div class="title">
-                    <h1>Torindo Jaya Persada</h1>
-                </div>
-                <div class="address">
-                    <p>Jl. Torindo Makmur 99, Kelurahan</p>
-                    <p>Kecamatan, kota, Provinsi KodePos</p>
+                <img src="public/img/torindoLogo.jpg" alt="">
+                <div class="text">
+                    <div class="title">
+                        <h1>Torindo Jaya Persada</h1>
+                    </div>
+                    <div class="address">
+                        <p>Jl. Torindo Makmur 99, Cipedak</p>
+                        <p>Jagakarsa, Jakarta Selatan,</p>
+                        <p>DKI Jakarta 12650</p>
+                    </div>
                 </div>
             </div>
             <div class="contact">
