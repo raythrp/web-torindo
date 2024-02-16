@@ -7,7 +7,7 @@
     <title><?= $title ?></title>
 </head>
 <body>
-<header>
+    <header>
         <nav>
             <div class="profile">
                 <img src="public/img/torindoLogo.jpg" alt="">
@@ -19,20 +19,13 @@
                 {
                     return $currentPage === $link;
                 }
-                ?>
-
-                <ul>
-                    <li><a href="index"<?= isCurrentPage($currentPage, "index") ? ' class="active"' : '' ?>>Home</a></li>
-                    <li><a href="about"<?= isCurrentPage($currentPage, "about") ? ' class="active"' : '' ?>>About Us</a></li>
-                    <li><a href="products"<?= isCurrentPage($currentPage, "products") ? ' class="active"' : '' ?>>Our Product</a></li>
-                    <li><a href="contact"<?= isCurrentPage($currentPage, "contact") ? ' class="active"' : '' ?>>Contact Us</a></li>
-                </ul>
-            <!-- <ul>
-                <li><a href="index"><span>Home</span></a></li>
-                <li><a href="about">About Us</a></li>
-                <li><a href="products">Our Product</a></li>
-                <li><a href="contact">Contact Us</a></li>
-            </ul> -->
+            ?>
+            <ul>
+                <li><a href="index"<?= isCurrentPage($currentPage, "index") ? ' class="active"' : '' ?>>Home</a></li>
+                <li><a href="about"<?= isCurrentPage($currentPage, "about") ? ' class="active"' : '' ?>>About Us</a></li>
+                <li><a href="products"<?= isCurrentPage($currentPage, "products") ? ' class="active"' : '' ?>>Our Product</a></li>
+                <li><a href="contact"<?= isCurrentPage($currentPage, "contact") ? ' class="active"' : '' ?>>Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
