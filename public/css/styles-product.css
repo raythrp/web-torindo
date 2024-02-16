@@ -2,7 +2,7 @@
 
 /* Responsive adjustments */
 
-.page1 img, .page2 img{
+.page1 img, .page2 img, .page3 img{
     width:100px;
 }
 
@@ -12,12 +12,12 @@
     flex-direction: column;
     align-items: center;
     margin:20vh 0vh 15vh 0vh;
-
 }   
 
 .header1 p{
     font-size: 2rem;
     font-weight: 700;
+    margin-top: 2vh;
 }
 
 .header1 span{
@@ -96,3 +96,69 @@
     font-weight: 600;
     color: #004AAD;
 }
+
+.text2 #h2{
+    margin-top:12vh;
+}
+
+.text2 #p2{
+    width: 60vh;
+    margin-left: 40vh;
+}
+
+.text1 #p1{
+    width: 95vh;
+    margin-top:4.5vh;
+}
+
+.text1 #p2{
+    width: 90vh;
+}
+
+/* center content */
+
+.header3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:20vh 0vh 5vh 0vh;
+}   
+
+.header3 a, .header1 a{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2vh;
+    color:black;
+}
+
+.header3 a span, .header1 a span{
+    text-decoration: underline;
+    color:#004AAD
+}
+
+.img3 img{
+    width: 350px;
+}
+
+.isi3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text3 {
+    margin-top:5vh;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 70vh;
+}
+
+.text3 span{
+    color:#004AAD;
+    font-style: italic;
+    font-weight: 600;
+}
+
