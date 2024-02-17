@@ -1,4 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+.recruitment-motto {
+    display: flex;
+    justify-content: center;
+}
+
+.recruitment-motto .box {
+    margin: 3rem 2rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    border-top: solid black 0.07rem;
+    border-bottom: solid black 0.07rem;
+}
+
+.recruitment-motto .box h1 {
+    padding: 1rem 0 1rem 0;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.recruitment-motto .box h1 span {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services .title {
+    margin: 6rem 2rem 0 2rem;
+    font-size: 2rem;
+}
+
+.services .title p {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.services .title span {
+    color: #004AAD;
+    font-weight: 600;
+}
+
+.roadmap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem 4rem 2rem;
+}
+
+.service {
+    display: flex;
+    margin: 4rem 2rem 0 2rem;
+    gap: 6rem;
+}
+
+.service img {
+    object-fit: cover;
+    max-width: 16rem;
+    height: auto;
+    border: solid grey 0.2rem;
+    border-radius: 2rem;
+}
+
+.service p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.roadmap img {
+    object-fit: cover;
+    max-width: 90%;
+    height: auto;
+}
 /* Responsive adjustments */
 

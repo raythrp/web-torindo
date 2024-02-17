@@ -9,32 +9,32 @@
 
     <div class="recruitment-motto">
         <div class="box">
-            <h1>EMPOWERING YOUR WORKFORCE,</h1>
-            <h1><span>ONE EMPLOYEE AT A TIME</span></h1>
+            <h1><span>EMPOWERING YOUR WORKFORCE,</span></h1>
+            <h1>ONE EMPLOYEE AT A TIME</h1>
         </div>
     </div>
 
     <div class="services">
-        <div class="services-title">
+        <div class="title">
             <h1>Our Services</h1>
-            <p>To become a Reliable and Trusted partner</p>
+            <p>To become a <span>Reliable and Trusted</span> partner</p>
         </div>
         <div class="service">
             <div class="executive-search">
-                <img src="" alt="">
+                <img src="public/img/recruitService.jpg" alt="">
                 <p>Executive Search</p>
             </div>
             <div class="training">
-                <img src="" alt="">
+                <img src="public/img/trainingService.jpg" alt="">
                 <p>Training</p>
             </div>
             <div class="assesment">
-                <img src="" alt="">
+                <img src="public/img/assesmentService.jpg" alt="">
                 <p>Assesment</p>
             </div>
         </div>
     </div>
 
     <div class="roadmap">
-        <img src="" alt="">
+        <img src="public/img/recruitmentRoadmap.png" alt="">
     </div>
