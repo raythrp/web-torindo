@@ -40,7 +40,8 @@ class Home extends Controller{
     public function recruitment() {
         $data = [
             'title' => 'Torindo Jaya Persada Recruitment Service',
-            'heroimg' => 'recruitmentHero'
+            'heroimg' => 'recruitmentHero',
+            'page' => 'recruitment'
         ];
         $this->view('home/recruitment', $data);
     }
@@ -48,7 +49,8 @@ class Home extends Controller{
     public function umrah() {
         $data = [
             'title' => 'Torindo Jaya Persada Umrah Traver & Service',
-            'heroimg' => 'umrahHero'
+            'heroimg' => 'umrahHero',
+            'page' => 'umrah'
         ];
         $this->view('home/umrah', $data);
     }

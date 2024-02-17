@@ -6,3 +6,14 @@
                 <p class="scroll">Scroll down to see more!</p>
             </div>
         </div>
+
+    <div class="contact-details">
+        <div class="instagram">
+            <img src="" alt="">
+            <h1>@tarindo</h1>
+        </div>
+        <div class="whatsapp">
+            <img src="" alt="">
+            <h1>0812345678910</h1>
+        </div>
+    </div>
