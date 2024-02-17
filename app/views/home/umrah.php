@@ -6,3 +6,14 @@
                 <p class="scroll">Scroll down to see more!</p>
             </div>
         </div>
+
+        <div class="wrapper">
+            <div class="text">
+                <p>“Pahami alur & rangkaian Umroh sesuai Syariat tanpa khawatir, bersama kami”</p>
+                <p id="umrah">“Umrah ke umrah adalah penghapus dosa antara keduanya” (HR. Bukhari No. 1773 & HR. Muslim No. 1349)</p>
+            </div>
+            <div class="cont">
+                <p>Untuk info lebih lanjut, hubungi:</p>
+                <p id="number">08111 33 48 77</p>
+            </div>
+        </div>
