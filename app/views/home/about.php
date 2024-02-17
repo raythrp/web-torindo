@@ -51,4 +51,33 @@
                 <p><span>Invest</span> continuosly in developing our team to ensure giving <strong>different taste of after sales</strong> support service to the customers</p>
             </div>
         </div>
+
+        <div class="core-values">
+            <div class="title">
+                <h1><span>Torindo's</span></h1>
+                <h1>Core Values.</h1>
+            </div>
+            <div class="box">
+                <div class="top">
+                    <div class="ethical">
+                        <p>Ethical</p>
+                    </div>
+                    <div class="employee-development">
+                        <p>Employee</p>
+                        <p>Development</p>
+                    </div>
+                    <div class="demanding">
+                        <p>Demanding</p>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="proactive">
+                        <p>Proactive</p>
+                    </div>
+                    <div class="respectful">
+                        <p>Respectful</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>

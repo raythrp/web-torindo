@@ -9,11 +9,11 @@
 
     <div class="contact-details">
         <div class="instagram">
-            <img src="" alt="">
+            <img src="public/img/instagramLogo.png" alt="">
             <h1>@tarindo</h1>
         </div>
         <div class="whatsapp">
-            <img src="" alt="">
+            <img src="public/img/whatsappLogo.png" alt="">
             <h1>0812345678910</h1>
         </div>
     </div>

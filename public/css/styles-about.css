@@ -126,4 +126,69 @@
     font-weight: 700;
 }
 
+.core-values {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.core-values .title {
+    margin: 8rem 0 0 0;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.core-values .title span {
+    color: #004AAD;
+}
+
+.core-values .box{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0 3rem 0;
+    width: 54rem;
+    gap: 4rem;
+    margin: 3rem 4rem 4rem 4rem;
+    background-color: #004AAD;
+    border-radius: 2rem;
+}
+
+.core-values .box .top {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.core-values .box .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.core-values .box .top .ethical, .employee-development, .demanding,  .proactive, .respectful {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    background-color: rgb(178, 178, 178);
+    color: black;
+}
+
+.core-values:hover .box:hover .top:hover .ethical:hover, .employee-development:hover, .demanding:hover,  .proactive:hover, .respectful:hover {
+    transition: 300ms;
+    background-color: white;
+    color: #004AAD;
+}
+
+.core-values .box .top, .bottom p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 /* Responsive adjustments */
