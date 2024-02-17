@@ -80,7 +80,8 @@
                     <img src="public/img/miningTruck.png" alt="miningTruck">
                 </div>
                 <div class="text3">
-                        <p>EMPOWERING YOUR WORKFORCE, <span>ONE EMPLOYEE AT A TIME</span></p>
+                        <p>EMPOWERING YOUR WORKFORCE,</p>
+                        <p><span>ONE EMPLOYEE AT A TIME</span></p>
                 </div>
             </div>
 
