@@ -235,6 +235,8 @@ dialog::backdrop {
 }
 
 .modal-wrapper .btn button {
+    width: 2rem;
+    height: 2rem;
     background: none;
     color: white;
     border: none;
@@ -247,7 +249,7 @@ dialog::backdrop {
 
 .modal-wrapper .btn button:hover {
     transition: 300ms;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     background-color: white;
     color: #004AAD;
     cursor: pointer;
