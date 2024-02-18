@@ -59,25 +59,107 @@
             </div>
             <div class="box">
                 <div class="top">
-                    <div class="ethical">
+                    <div class="ethical" data-modal-id="modal1">
                         <p>Ethical</p>
                     </div>
-                    <div class="employee-development">
+                    <div class="employee-development" data-modal-id="modal2">
                         <p>Employee</p>
                         <p>Development</p>
                     </div>
-                    <div class="demanding">
+                    <div class="demanding" data-modal-id="modal3">
                         <p>Demanding</p>
                     </div>
                 </div>
                 <div class="bottom">
-                    <div class="proactive">
+                    <div class="proactive" data-modal-id="modal4">
                         <p>Proactive</p>
                     </div>
-                    <div class="respectful">
+                    <div class="respectful" data-modal-id="modal5">
                         <p>Respectful</p>
                     </div>
                 </div>
             </div>
+
+
+                <dialog id="modal1">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>                    
+                        <div class="modal-title">
+                            <h1>Ethical.</h1>
+                        </div>
+                        <div class="content">
+                            <p>Always maintain and practice high level of business ethics on every aspect that we have to do.</p>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal2">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>
+                        <div class="modal-title">
+                            <h1>Employee Development.</h1>
+                        </div>
+                        <div class="content">
+                            <p>Constantly seeking training and employee career enhancement possibilities.</p>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal2">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>
+                        <div class="modal-title">
+                            <h1>Employee Development.</h1>
+                        </div>
+                        <div class="content">
+                            <p>Constantly seeking training and employee career enhancement possibilities.</p>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal3">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>
+                        <div class="modal-title">
+                            <h1>Demanding.</h1>
+                        </div>
+                        <div class="content">
+                            <p>In every business that we do, we constantly set a high level of internal expectations that will motivate our employees to go the extra mile in satisfying the key stakeholders.</p>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal4">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>
+                        <div class="modal-title">
+                            <h1>Proactive.</h1>
+                        </div>
+                        <div class="content">
+                            <p>Constantly seeking to improve operations for near perfection level.</p>
+                        </div>
+                    </div>
+                </dialog>
+                <dialog id="modal5">
+                    <div class="modal-wrapper">
+                        <div class="btn">
+                            <button class="closeModal">&#10007;</button>
+                        </div>
+                        <div class="modal-title">
+                            <h1>Respectful.</h1>
+                        </div>
+                        <div class="content">
+                            <p>Continuosly maintain high level of respect among fellow employees, customers, suppliers, and marketplace.</p>
+                        </div>
+                    </div>
+                </dialog>
         </div>
     </main>
+
+    <script src="public/js/aboutScript.js"></script>
