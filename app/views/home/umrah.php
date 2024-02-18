@@ -3,11 +3,13 @@
             <div class="motto">
                 <p>Umrah Travel & Services</p>
                 <h1>Journey with <span>heart.</span></h1>
-                <p class="scroll">Scroll down to see more!</p>
+                <div class="scroll">
+                    <a href="#wrapper">Scroll down to see more!</a>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper">
+        <div id="wrapper" class="wrapper">
             <div class="text">
                 <p>“Pahami alur & rangkaian Umroh sesuai Syariat tanpa khawatir, bersama kami”</p>
                 <p id="umrah">“Umrah ke umrah adalah penghapus dosa antara keduanya” (HR. Bukhari No. 1773 & HR. Muslim No. 1349)</p>

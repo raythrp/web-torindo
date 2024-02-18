@@ -3,11 +3,13 @@
             <div class="motto">
                 <p>Torindo Jaya Persada</p>
                 <h1><span>Recruitment </span>Services.</h1>
-                <p class="scroll">Scroll down to see more!</p>
+                <div class="scroll">
+                    <a href="#recruitment-motto">Scroll down to see more!</a>
+                </div>
             </div>
         </div>
 
-    <div class="recruitment-motto">
+    <div id="recruitment-motto" class="recruitment-motto">
         <div class="box">
             <h1><span>EMPOWERING YOUR WORKFORCE,</span></h1>
             <h1>ONE EMPLOYEE AT A TIME</h1>

@@ -3,11 +3,13 @@
             <div class="motto">
                 <p>What we provide?</p>
                 <h1>Your needs.</h1>
-                <p class="scroll">Scroll down to see more!</p>
+                <div class="scroll">
+                    <a href="#page1">Scroll down to see more!</a>
+                </div>
             </div>
         </div>
 
-        <div class="page1">
+        <div id="page1" class="page1">
             <div class="header1">
                 <img src="public/icon/helmet.svg" alt="helmet"/>
                 <p><span>Mining</span> Products</p>

@@ -49,6 +49,7 @@ footer p, a {
     object-fit: contain;
     max-width: 8.5rem;
     height: auto;
+    border-radius: 0.5rem;
 }
 
 .content .profile h1{

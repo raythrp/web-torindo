@@ -3,11 +3,13 @@
             <div class="motto">
                 <p>So, you're interested?</p>
                 <h1>Lets get <span>Deeper.</span></h1>
-                <p class="scroll">Scroll down to see more!</p>
+                <div class="scroll">
+                    <a href="#contact-details">Scroll down to see more!</a>
+                </div>            
             </div>
         </div>
 
-    <div class="contact-details">
+    <div id="contact-details" class="contact-details">
         <div class="instagram">
             <img src="public/img/instagramLogo.png" alt="">
             <h1>@tarindo</h1>

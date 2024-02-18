@@ -3,11 +3,13 @@
             <div class="motto">
                 <p>The journey doesn't end with a purchase,</p>
                 <h1>It begins with <span>Us.</span></h1>
-                <p class="scroll">Scroll down to see more!</p>
+                <div class="scroll">
+                    <a href="#wrapper">Scroll down to see more!</a>
+                </div>
             </div>
         </div>
 
-        <div class="wrapper">
+        <div id="wrapper" class="wrapper">
               <h1 class="italic"><i>Why </i>choose us?</h1>
               <div class="container-box">
               <div class="biggest-box">
