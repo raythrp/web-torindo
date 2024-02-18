@@ -26,6 +26,7 @@
                 <li><a href="products"<?= isCurrentPage($currentPage, "products") ? ' class="active"' : '' ?>>Our Product</a></li>
                 <li><a href="contact"<?= isCurrentPage($currentPage, "contact") ? ' class="active"' : '' ?>>Contact Us</a></li>
             </ul>
+            <a href="#" class="nav-button"></a>
         </nav>
     </header>
 

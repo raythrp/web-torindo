@@ -179,21 +179,23 @@
     border-radius: 1rem;
     background-color: rgb(203, 203, 203);
     color: black;
-    transition: 300ms;
+    transition: 100ms;
 }
 
 .core-values:hover .box:hover .top:hover .ethical:hover, .employee-development:hover, .demanding:hover {
-    transition: 300ms;
+    transition: 100ms;
     font-weight: 700;
     background-color: white;
     color: #004AAD;
     cursor: pointer;
+    border: solid grey 0.4rem;
 }
 
 .core-values:hover .box:hover .bottom:hover .proactive:hover, .respectful:hover {
     background-color: white;
     color: #004AAD;
     cursor: pointer;
+    border: solid grey 0.4rem;
 }
 
 .proactive:hover p, .respectful:hover p {
@@ -266,4 +268,10 @@ dialog::backdrop {
 .modal-wrapper .content {
     margin-top: 1rem;
 }
+
 /* Responsive adjustments */
+
+
+@media (max-width: 480px) {
+    
+}

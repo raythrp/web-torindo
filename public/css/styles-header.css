@@ -82,13 +82,18 @@ nav ul a:hover {
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
     border-radius: 0.2rem;
     opacity: 70%;
-    transition: 300ms;
+    transition: 150ms;
     font-weight: 500;
     color: black;
 }
 
 nav ul a.active {
     font-weight: 600;
+}
+
+nav ul a.active:hover {
+    font-weight: 600;
+    color: #004AAD;
 }
 
 .hero {
@@ -153,7 +158,25 @@ nav ul a.active {
     padding: 0.4rem 0.8rem 0.4rem 0.8rem;
     border-radius: 0.2rem;
     opacity: 70%;
-    transition: 300ms;
+    transition: 150ms;
     font-weight: 600;
     color: white;
+}
+
+a.nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.nav-button .bar {
+    color: white;
+    width: 100%;
+    height: 10%;
+}
+
+/* responsive adjustments */
+
+@media (max-width: 480px) {
+
 }
