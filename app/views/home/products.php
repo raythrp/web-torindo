@@ -33,7 +33,7 @@
             <div class="isi2">
                 <div class="text2">
                         <h1><span id="h1">Mining</span> Component & Parts</h1>
-                        <p>Brand new, crucial inner working parts with<span> Excellent reabillity & outstanding perform <br>output</span></p>
+                        <p>Brand new, crucial inner working parts with<span> Excellent reabillity & outstanding perform output</span></p>
                         <p>high-speed engine & gearbox suited for all purpose mining activities. <span>Durable</span> and <span>field-tested</span> differential and brakes available with the best quality.
                 </div>
                 <div class="img2">
