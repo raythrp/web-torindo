@@ -58,22 +58,26 @@ h1.italic {
     color: transparent;
 }
 
+.years {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 8rem 4rem 8rem;
+    gap: 2rem;
+}
+
 .years #ten{
     font-style: italic;
     font-weight: 800;
     font-size: 13rem;
     color: white;
     transform: rotate(-4deg);
-    margin: 7rem 7rem;
 }
 
 .years #text1{
     font-size: 3rem;
+    padding-bottom: 3rem;
     color: white;
-    text-align: left;
-    position: absolute;
-    top: 69rem;
-    left: 29rem;
     transform: rotate(-2deg);
 }
 
@@ -87,12 +91,19 @@ h1.italic {
     font-weight: 600;
 }
 
+.global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    margin: 0 8rem 0 8rem;
+}
+
 .global h2{
     font-weight: 700;
     font-size: 3.5rem;
     color:white;
     text-align: right;
-    margin-right: 4rem;
 }
 
 .global #span1{
@@ -100,12 +111,20 @@ h1.italic {
     font-style: italic;
 }
 
-.global p{
+.global-p {
+    display: flex;
     font-size: 3rem;
     color:white;
     text-align: right;
-    width: 52rem;
-    margin-left:29%;
+    width: 47rem;
+}
+
+.invest {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 4rem 8rem;
 }
 
 .invest h2{
@@ -114,16 +133,13 @@ h1.italic {
     font-size: 3.5rem;
     color:white;
     text-align: left;
-    margin: 7rem 0px 0px 7rem;
 }  
 
 .invest p{
     font-size: 2rem;
     color:white;
     text-align: left;
-    width: 55rem;
-    margin-left:8.5%;
-    margin-bottom: 9rem;
+    width: 80%;
 }
 
 .invest span{
@@ -132,12 +148,20 @@ h1.italic {
     color: #27A4D8;
 }
 
+.icons {
+    margin: 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
 .icon1{
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
     justify-content: center;
-    width: 80rem;
+    gap: 3.5rem;
 }
 
 .icon1 #icon01{
@@ -145,7 +169,7 @@ h1.italic {
 }
 
 .icon1 #icon02{
-    width: 7.5rem;
+    max-width: 7.5rem;
 }
 
 .icon1 .icon01{
@@ -153,7 +177,7 @@ h1.italic {
     font-weight:700;
     text-align:center;
     color: white;
-    width:50vh;
+    max-width: 50vh;
 }
 
 .icon1 .icon02{
@@ -161,8 +185,7 @@ h1.italic {
     font-weight:700;
     text-align:center;
     color: white;
-    width: 60vh;
-    margin:0px 15vh 0px 15vh;
+    max-width: 60vh;
 }
 
 .icon1 .icon03{
@@ -170,20 +193,18 @@ h1.italic {
     font-weight:700;
     text-align:center;
     color: white;
-    width: 50vh;
+    max-width: 50vh;
 }
 
 .icon2{
     display:flex;
     flex-direction: row;
-    justify-content:space-around;
-    width: 100vw;
+    justify-content: space-between;
+    width: 65%;
 }
 
 .icon2 #icon01{
-    width: 120px;
-    margin-right:4vh;
-    margin-top:25vh;
+    max-width: 120px;
 }
 
 .icon2 .icon01{
@@ -191,8 +212,7 @@ h1.italic {
     font-weight:700;
     text-align:center;
     color: white;
-    width:40vh;
-    margin-right: 100px;
+    max-width:40vh;
 }
 
 .icon2 .icon02{
@@ -200,8 +220,7 @@ h1.italic {
     font-weight:700;
     text-align:center;
     color: white;
-    width:30vh;
-    margin-left:-30vw;
+    max-width:30vh;
 }
 
 .know{

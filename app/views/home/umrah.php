@@ -10,7 +10,7 @@
         </div>
 
         <div id="wrapper" class="wrapper">
-            <div class="text">
+            <div class="txt">
                 <p>“Pahami alur & rangkaian Umroh sesuai Syariat tanpa khawatir, bersama kami”</p>
                 <p id="umrah">“Umrah ke umrah adalah penghapus dosa antara keduanya” (HR. Bukhari No. 1773 & HR. Muslim No. 1349)</p>
             </div>

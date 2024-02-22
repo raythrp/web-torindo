@@ -22,34 +22,38 @@
               </div>
               <div class="global">
                      <h2>We reach <span id="span1">GLOBALLY<span></h2>
-                     <p>Maintains a <span id="span2">VAST</span> operation to serve our customers</p>
+                     <div class="global-p">
+                            <p>Maintains a <span id="span2">VAST</span> operation to serve our customers</p>
+                     </div>
               </div>
               <div class="invest">
                      <h2>INVEST</h2>
                      <p>continuosly in developing our team to ensure giving <span>DIFFERENT TASTE</span> of After Sales Support Service to the Customers</p>
               </div>
-              <div class="icon1">
-                     <div class="icon01">
-                            <img id="icon01" src="public/icon/mechanical.svg" alt="gear"/>
-                            <p>ORIGINAL EQUIPMENT MANUFACTURER</p>
+              <div class="icons">
+                     <div class="icon1">
+                            <div class="icon01">
+                                   <img id="icon01" src="public/icon/mechanical.svg" alt="gear"/>
+                                   <p>ORIGINAL EQUIPMENT MANUFACTURER</p>
+                            </div>
+                            <div class="icon02">
+                                   <img id="icon01" src="public/icon/achievement.svg" alt="achievement"/>
+                                   <p>DELIVERING PREMIUM PRODUCTS TO ITS GLOBAL CUSTOMER</p>
+                            </div>
+                            <div class="icon03">
+                                   <img id="icon02" src="public/icon/people-group.svg" alt="people group"/>
+                                   <p>ASSISTED BY EXPERT ADVISORS</p>
+                            </div>
                      </div>
-                     <div class="icon02">
-                            <img id="icon01" src="public/icon/achievement.svg" alt="achievement"/>
-                            <p>DELIVERING PREMIUM PRODUCTS TO ITS GLOBAL CUSTOMER</p>
-                     </div>
-                     <div class="icon03">
-                            <img id="icon02" src="public/icon/people-group.svg" alt="people group"/>
-                            <p>ASSISTED BY EXPERT ADVISORS</p>
-                     </div>
-              </div>
-              <div class="icon2">
-                     <div class="icon01">
-                            <img id="icon01" src="public/icon/product.svg" alt="gear"/>
-                            <p>PRODUCT SUPPORT CAPABILITIES</p>
-                     </div>
-                     <div class="icon02">
-                            <img id="icon01" src="public/icon/phone.svg" alt="achievement"/>
-                            <p>24/7 EASY TO CONTACT US</p>
+                     <div class="icon2">
+                            <div class="icon01">
+                                   <img id="icon01" src="public/icon/product.svg" alt="gear"/>
+                                   <p>PRODUCT SUPPORT CAPABILITIES</p>
+                            </div>
+                            <div class="icon02">
+                                   <img id="icon01" src="public/icon/phone.svg" alt="achievement"/>
+                                   <p>24/7 EASY TO CONTACT US</p>
+                            </div>
                      </div>
               </div>
               <div class="know">
