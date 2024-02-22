@@ -40,6 +40,7 @@
                     <img src="public/img/Diesel.png" alt="Parts">
                 </div>
             </div>
+        </div>
 
             <div class="page1">
                 <div class="header1">
@@ -55,6 +56,8 @@
                             <p id="p2">Smart Monitoring Systems to ensure <span>maximum efficiency, productivity,</span> and <span>Longevity of units</span></p>
                     </div>
                 </div>
+            </div>
+
 
                 <div class="page2">
                     <div class="header1">
@@ -73,19 +76,17 @@
                 </div>
 
             <div class="page3">
-            <div class="header3">
-                <img src="public/icon/handshake.svg" alt="Recruitment"/>
-                <a href="recruitment"><span>Recruitment </span>Services</a>
-            </div>
-            <div class="isi3">
-                <div class="img3">
-                    <img src="public/img/recruitment.png" alt="miningTruck">
+                <div class="header3">
+                    <img src="public/icon/handshake.svg" alt="Recruitment"/>
+                    <a href="recruitment"><span>Recruitment </span>Services</a>
                 </div>
-                <div class="text3">
+                <div class="isi3">
+                    <div class="img3">
+                        <img src="public/img/recruitment.png" alt="miningTruck">
+                    </div>
+                    <div class="text3">
                         <p>EMPOWERING YOUR WORKFORCE,</p>
                         <p><span>ONE EMPLOYEE AT A TIME</span></p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        </div>
