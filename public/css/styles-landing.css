@@ -249,4 +249,11 @@ h1.italic {
     text-decoration: none;
 }
 
+#get:hover {
+    color: white; /* Warna teks pada hover */
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #0E2B3D;
+    padding: 15px 60px;
+    transition: 200ms;
+}
+
 /* Responsive adjustments */
