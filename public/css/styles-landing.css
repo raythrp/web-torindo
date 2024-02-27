@@ -247,6 +247,7 @@ h1.italic {
     color: white;
     padding:10px 50px;
     text-decoration: none;
+    transition: 200ms;
 }
 
 #get:hover {

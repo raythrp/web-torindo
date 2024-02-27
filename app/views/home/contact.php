@@ -2,7 +2,7 @@
 
             <div class="motto">
                 <p>So, you're interested?</p>
-                <h1>Lets get <span>Deeper.</span></h1>
+                <h1>Let us <span>know!</span></h1>
                 <div class="scroll">
                     <a href="#contact-details">Scroll down to see more!</a>
                 </div>            
