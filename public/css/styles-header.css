@@ -189,6 +189,10 @@
         padding: 0;
     }
 
+    body {
+        font-family: 'Poppins', sans-serif;
+    }   
+
     .blocker {
         margin: 0;
         display: flex;
@@ -205,7 +209,7 @@
     .blocker h1 {
         width: 100%;
         text-align: center;
-        font-size: 10rem;
+        font-size: 9rem;
     }
 
     .blocker p {
@@ -228,6 +232,18 @@
     }
 
     .vision-motto p {
+        display: none;
+    }
+
+    .container-box {
+        display: none;
+    }
+
+    p#ten {
+        display: none;
+    }
+
+    a#get {
         display: none;
     }
 }
