@@ -12,10 +12,10 @@
     <div id="contact-details" class="contact-details">
         <div class="instagram">
             <img src="public/img/instagramLogo.png" alt="">
-            <h1>@tarindo</h1>
+            <h1>@torindojayapersada</h1>
         </div>
         <div class="whatsapp">
             <img src="public/img/whatsappLogo.png" alt="">
-            <h1>0812345678910</h1>
+            <h1>08111334877</h1>
         </div>
     </div>
