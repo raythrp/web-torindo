@@ -9,8 +9,8 @@
                         <h1>Torindo Jaya Persada</h1>
                     </div>
                     <div class="address">
-                        <p>Alamanda Tower 21st Floor</p>
-                        <p>Jl. TB Simatupang No. 23-24</p>
+                        <p>Menara 165 3rd Floor</p>
+                        <p>Jl. TB Simatupang No. 1</p>
                         <p>Jakarta Selatan DKI 12430</p>
                         <p>Indonesia</p>
                     </div>
