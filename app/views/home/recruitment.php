@@ -2,7 +2,7 @@
 
             <div class="motto">
                 <p>Torindo Jaya Persada</p>
-                <h1><span>Recruitment </span>Services.</h1>
+                <h1><span>HR </span>Services.</h1>
                 <div class="scroll">
                     <a href="#recruitment-motto">Scroll down to see more!</a>
                 </div>

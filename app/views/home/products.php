@@ -76,7 +76,7 @@
         <div class="page3">
             <div class="header3">
                 <img src="public/icon/handshake.svg" alt="Recruitment"/>
-                <a href="recruitment"><span>Recruitment </span>Services</a>
+                <a href="hr"><span>HR </span>Services</a>
             </div>
             <div class="isi3">
                 <div class="img3">

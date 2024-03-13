@@ -37,9 +37,9 @@ class Home extends Controller{
         $this->view('home/products', $data);
     }
 
-    public function recruitment() {
+    public function hr() {
         $data = [
-            'title' => 'Torindo Jaya Persada Recruitment Service',
+            'title' => 'Torindo Jaya Persada HR Service',
             'heroimg' => 'recruitmentHero',
             'page' => 'recruitment'
         ];
