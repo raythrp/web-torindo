@@ -16,7 +16,7 @@
             </div>
             <div class="isi1">
                 <div class="img1">
-                    <img src="public/img/miningTruck.png" alt="miningTruck">
+                    <img src="public/img/miningTruck.jpg" alt="miningTruck">
                 </div>
                 <div class="text1">
                         <h1><span id="h1">Mining</span> Truck</h1>

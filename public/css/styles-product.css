@@ -187,7 +187,7 @@
     font-weight: 700;
     margin-top: 2vh;
     color:black;
-    transition: 0.2s all ease-in-out 0s;
+    transition: 0.2s all ease-in 0s;
 }
 
 .header3 a:hover, .header1 a:hover{
@@ -197,7 +197,7 @@
 .header3 a span, .header1 a span{
     text-decoration: underline;
     color:#004AAD;
-    transition: 0.2s all ease-in-out 0s;
+    transition: 0.2s all ease-in 0s;
 }
 
 .header3 a span:hover, .header1 a span:hover{
