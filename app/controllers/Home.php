@@ -31,7 +31,7 @@ class Home extends Controller{
     public function products() {
         $data = [
             'title' => 'Torindo Jaya Persada Products',
-            'heroimg' => 'productHero',
+            'heroimg' => 'produkHero',
             'page' => 'products'
         ];
         $this->view('home/products', $data);
