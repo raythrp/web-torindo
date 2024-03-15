@@ -9,9 +9,10 @@
                         <h1>Torindo Jaya Persada</h1>
                     </div>
                     <div class="address">
-                        <p>Jl. Torindo Makmur 99, Cipedak</p>
-                        <p>Jagakarsa, Jakarta Selatan,</p>
-                        <p>DKI Jakarta 12650</p>
+                        <p>Menara 165 3rd Floor</p>
+                        <p>Jl. TB Simatupang No. 1</p>
+                        <p>Jakarta Selatan DKI 12430</p>
+                        <p>Indonesia</p>
                     </div>
                 </div>
             </div>

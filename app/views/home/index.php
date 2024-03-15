@@ -11,11 +11,11 @@
 
         <div id="wrapper" class="wrapper">
               <h1 class="italic"><i>Why </i>choose us?</h1>
-              <div class="container-box">
+              <!-- <div class="container-box">
               <div class="biggest-box">
                      <p><span>No 1 BIGGEST </span>population China product in <span>Indonesia</span></p>
               </div>
-              </div>
+              </div> -->
               <div class="years">
                      <p id="ten">10+</p>
                      <p id="text1"><span id="span1">Years</span> experience <br> Professional manpower to support <span id="span2">YOUR</span> business</p>

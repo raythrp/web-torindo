@@ -1,8 +1,8 @@
 footer {
     margin: 0;
     padding: 2rem 4rem 2rem 4rem;
-    background-color: #a8a8a8;
-    color: white;
+    background-color: white;
+    color: rgb(18, 18, 18);
 }
 
 footer .copy {
@@ -42,7 +42,7 @@ footer p, a {
 }
 
 .content .profile .text p {
-    margin-top: 0.7rem;
+    margin-top: 0.3rem;
 }
 
 .content .profile img {
@@ -73,7 +73,7 @@ footer p, a {
 
 .content .nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(18, 18, 18);
 }
 
 .content .nav a:hover {
