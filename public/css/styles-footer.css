@@ -79,3 +79,43 @@ footer p, a {
 .content .nav a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+    footer {
+        width: 100%;
+        padding: 6vw;
+    }
+    footer .content {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 5vh;
+        p {
+            font-size: 1.8vh;
+        }
+        a {
+            font-size: 1.8vh;
+        }
+    }
+
+    footer .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .profile .text {
+        display: flex;
+        h1 {
+            font-size: 3vh
+        }
+    }
+
+    footer .copy {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.8vh;
+    }
+}

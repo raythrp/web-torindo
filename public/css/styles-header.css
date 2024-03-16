@@ -201,9 +201,9 @@ a.nav-button .bar {
         left: 0;
         right: 0;
         backdrop-filter: blur(5px);
-        filter: brightness(80%);
         a {
             color: white;
+            font-weight: 300;
             font-size: 4vh;
         }
     }
@@ -214,8 +214,8 @@ a.nav-button .bar {
 
     nav ul li {
         width: 100%; /* Full width for each link */
-        text-align: center; /* Center-align links */
-        padding: 1rem 0; /* Add padding for better spacing */
+        text-align: end; /* Center-align links */
+        padding: 1rem 2rem; /* Add padding for better spacing */
     }
 
     .nav-button {
@@ -235,7 +235,7 @@ a.nav-button .bar {
         margin: 3px 0; /* Adjust spacing between bars */
         transition: 0.3s; /* Add transition for smooth animation */
     }
-    
+
     /* html {
         margin: 0;
         padding: 0;
