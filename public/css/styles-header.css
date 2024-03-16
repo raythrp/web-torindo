@@ -1,191 +1,242 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-@media (min-width: 769px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box; /* Added box-sizing for better layout control */
-    }
-    
-    body, html {
-        transition: 300ms;
-        scroll-behavior: smooth;
-        width: 100%;
-        height: 100%;
-    }
-    
-    body {
-        font-family: 'Poppins', sans-serif;
-    }   
-    
-    .logo {
-        order: 1;
-        color: #FFF;
-        font-size: 1.2rem;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    nav {
-        display: flex;
-        z-index: 2;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        justify-content: space-between;
-        align-items: center;
-        height: 80px; /* Adjusted height for better visibility */
-        padding: 0rem 5rem 0 5rem; /* Added padding for spacing */
-    }
-    
-    nav::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0); /* Adjust the last value for background opacity */
-        backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
-        filter: brightness(80%);
-        z-index: -1; /* Place the pseudo-element behind the actual content */
-    }
-    
-    nav .profile {
-        display: flex;
-        gap: 1rem;
-    }
-    
-    nav .profile img {
-        object-fit: contain;
-        max-width: 3.2rem;
-    }
-    
-    nav ul {
-        display: flex;
-        order: 2;
-        list-style: none;
-    }
-    
-    nav ul a {
-        color: #FFF;
-        font-size: 1rem; /* Adjusted font size */
-        font-weight: 300;
-        line-height: normal;
-        margin-left: 2rem;
-        text-decoration: none;
-        transition: 300ms;
-    }
-    
-    nav ul a:hover {
-        background-color: white;
-        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-        border-radius: 0.2rem;
-        opacity: 70%;
-        transition: 150ms;
-        font-weight: 500;
-        color: black;
-    }
-    
-    nav ul a.active {
-        font-weight: 600;
-    }
-    
-    nav ul a.active:hover {
-        font-weight: 600;
-        color: #004AAD;
-    }
-    
-    .hero {
-        height: 100vh;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    .hero img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: brightness(70%);
-    }
-    
-    .motto {
-        position: absolute;
-        top: 62%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        color: #FFF;
-    }
-    
-    .motto p {
-        color: #ffffff;
-        text-align: left;
-        font-size: 1.6rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-    }
-    
-    .motto h1 {
-        color: #27A4D8;
-        font-size: 3.6rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-    }
-    
-    .motto span {
-        color: #004AAD;
-    }
-    
-    .motto .scroll {
-        margin-top: 12rem;
-        text-align: center;
-        line-height: normal;
-    }
-    
-    .motto .scroll a {
-        text-decoration: none;
-        color: #D9D9D9;
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 300;
-        transition: 300ms;
-    }
-    
-    .motto .scroll a:hover {
-        background-color: black;
-        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
-        border-radius: 0.2rem;
-        opacity: 70%;
-        transition: 150ms;
-        font-weight: 600;
-        color: white;
-    }
-    
-    a.nav-button {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    a.nav-button .bar {
-        color: white;
-        width: 100%;
-        height: 10%;
-    }
-
-    .blocker {
-        display: none;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added box-sizing for better layout control */
 }
+
+body, html {
+    transition: 300ms;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}   
+
+.logo {
+    order: 1;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav {
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px; /* Adjusted height for better visibility */
+    padding: 0rem 5rem 0 5rem; /* Added padding for spacing */
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0); /* Adjust the last value for background opacity */
+    backdrop-filter: blur(5px); /* Adjust the blur radius as needed */
+    filter: brightness(80%);
+    z-index: -1; /* Place the pseudo-element behind the actual content */
+}
+
+nav .profile {
+    display: flex;
+    gap: 1rem;
+}
+
+nav .profile img {
+    object-fit: contain;
+    max-width: 3.2rem;
+}
+
+nav ul {
+    display: flex;
+    order: 2;
+    list-style: none;
+}
+
+nav ul a {
+    color: #FFF;
+    font-size: 1rem; /* Adjusted font size */
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+nav ul a:hover {
+    background-color: white;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    opacity: 70%;
+    transition: 150ms;
+    font-weight: 500;
+    color: black;
+}
+
+nav ul a.active {
+    font-weight: 600;
+}
+
+nav ul a.active:hover {
+    font-weight: 600;
+    color: #004AAD;
+}
+
+nav .sidebar {
+    display: none;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+
+.motto {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #FFF;
+}
+
+.motto p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.motto h1 {
+    color: #27A4D8;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.motto span {
+    color: #004AAD;
+}
+
+.motto .scroll {
+    margin-top: 12rem;
+    text-align: center;
+    line-height: normal;
+}
+
+.motto .scroll a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 300;
+    transition: 300ms;
+}
+
+.motto .scroll a:hover {
+    background-color: black;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    opacity: 70%;
+    transition: 150ms;
+    font-weight: 600;
+    color: white;
+}
+
+a.nav-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.nav-button .bar {
+    color: white;
+    width: 100%;
+    height: 10%;
+}
+
+.blocker {
+    display: none;
+}
+
 
 /* responsive adjustments */
 
-@media (max-width: 768px) {
-    html {
+@media (max-width: 800px) {
+
+    nav {
+        padding: 0 2rem; /* Adjust padding for better spacing */
+    }
+
+    nav ul {
+        display: none; /* Hide the regular navigation links */
+        flex-direction: column; /* Stack links vertically */
+        position: absolute; /* Position links relative to nav */
+        top: 80px; /* Adjust top distance */
+        left: 0;
+        right: 0;
+        backdrop-filter: blur(5px);
+        filter: brightness(80%);
+        a {
+            color: white;
+            font-size: 4vh;
+        }
+    }
+
+    nav ul.active {
+        display: flex; /* Show links when active */
+    }
+
+    nav ul li {
+        width: 100%; /* Full width for each link */
+        text-align: center; /* Center-align links */
+        padding: 1rem 0; /* Add padding for better spacing */
+    }
+
+    .nav-button {
+        display: flex; /* Show the nav button */
+        flex-direction: column; /* Align bars vertically */
+        justify-content: center; /* Center-align bars vertically */
+        align-items: center; /* Center-align bars horizontally */
+        width: 25px; /* Adjust button width */
+        height: 20px; /* Adjust button height */
+        position: relative; /* Set position to relative for absolute positioning of bars */
+    }
+
+    .nav-button .bar {
+        width: 100%; /* Set bar width to 100% */
+        height: 3px; /* Adjust bar height */
+        background-color: white; /* Bar color */
+        margin: 3px 0; /* Adjust spacing between bars */
+        transition: 0.3s; /* Add transition for smooth animation */
+    }
+    
+    /* html {
         margin: 0;
         padding: 0;
     }
@@ -246,5 +297,5 @@
 
     a#get {
         display: none;
-    }
+    } */
 }
