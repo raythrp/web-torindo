@@ -8,12 +8,12 @@
     <title><?= $title ?></title>
 </head>
 <body>
-    <div class="blocker">
+    <!-- <div class="blocker">
             <h1>We're very sorry..</h1>
             <p>Please view this website with a laptop, tablet, or similar devices for best experience.</p>
             <p>Please set your device to landscape to keep view this website.</p>
             <p class="warning">*Some visual features won't be optimised</p>
-    </div>
+    </div> -->
     <header>
         <nav>
             <div class="profile">

@@ -62,7 +62,7 @@ h1.italic {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8rem 8rem 4rem 8rem;
+    margin: 8rem 8rem 4rem 8rem; 
     gap: 2rem;
 }
 
@@ -96,7 +96,7 @@ h1.italic {
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    margin: 0 8rem 0 8rem;
+    margin: 0 8rem;
 }
 
 .global h2{
@@ -258,3 +258,53 @@ h1.italic {
 }
 
 /* Responsive adjustments */
+
+@media only screen and (max-device-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .wrapper {
+        height: 100%;
+        width: 200%;
+    }
+
+    h1.italic {
+        font-size: 6rem;
+    }
+
+    .container-box{
+        margin-left: -5.2rem;
+    }
+
+    .biggest-box{
+        font-size:1.5rem;
+        padding:1rem;
+    }
+
+    .years .text{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .global {
+        margin: 0 3rem;
+    }
+
+    .invest {
+        margin: 4rem 3rem;
+    }
+
+    .icon2{
+        width: 80%;
+    }
+
+    .icon2 .icon01{
+        max-width:30vh;
+    }
+
+    .icon2 .icon02 img{
+        width: 5rem;
+        margin: 1rem 0 1.5rem 0;
+    }
+
+}
