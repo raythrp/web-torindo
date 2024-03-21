@@ -81,7 +81,15 @@
 
 .vision-goal {
     display: flex;
-    margin: 6rem 10rem 0 10rem;
+    justify-content: start;
+    margin-top: 6rem;
+    padding-left: 10rem;
+    gap: 2rem;
+    width: 100%;
+}
+
+.vision-goal .big {
+    width: 20%;
 }
 
 .vision-goal .big span {
@@ -90,9 +98,9 @@
 
 .vision-goal .content {
     margin: 0 10rem 0 0.9rem;
-    max-width: 60%;
+    width: 36%;
     display: flex;
-    align-items: center;
+    align-items: start;
 }
 
 .achievements {
@@ -146,11 +154,11 @@
     color: #004AAD;
 }
 
-.core-values .box{
+.core-values .box {
     display: flex;
     flex-direction: column;
     padding: 3rem 0 3rem 0;
-    width: 54rem;
+    width: 80%;
     gap: 4rem;
     margin: 3rem 4rem 4rem 4rem;
     background-color: #004AAD;
@@ -160,13 +168,14 @@
 .core-values .box .top {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    padding: 2.5%;
+    gap: 10%;
 }
 
 .core-values .box .bottom {
     display: flex;
     justify-content: center;
-    gap: 6rem;
+    gap: 10%;
 }
 
 .core-values .box .top .ethical, .employee-development, .demanding,  .proactive, .respectful {
@@ -174,8 +183,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 12rem;
-    height: 12rem;
+    width: 18vw;
+    height: 18vw;
     border-radius: 1rem;
     background-color: rgb(203, 203, 203);
     color: black;
@@ -272,6 +281,134 @@ dialog::backdrop {
 /* Responsive adjustments */
 
 
-@media (max-width: 480px) {
-    
+@media (max-width: 800px) {
+
+    .vision-title {
+        width: 100%;
+        margin: 0;
+        margin-top: 2rem;
+    }
+
+    .vision-title h1{
+        text-align: center;
+        font-size: 8vw;
+    }
+
+    .vision-motto {
+        margin-top: 2rem;
+
+        img {
+            height: 12vw;
+        }
+
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .vision-achieve {
+        padding: 0 8vw;
+    }
+
+    .vision-achieve .top {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 4rem 0rem 0rem 0rem;
+        gap: .1rem;
+        h1 {
+            font-size: 8vw;
+        }
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .vision-achieve .top .med{
+        max-width: 100%;
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .vision-achieve .bottom {
+        margin: 1rem 0rem;
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .vision-goal {
+        flex-direction: column;
+        padding: 0 8vw;
+        gap: 1rem;
+        width: 100vw;
+        margin: 2rem 0;
+    }
+
+    .vision-goal .big {
+        width: 100%;
+        h1 {
+            font-size: 8vw;
+        }
+    }
+
+    .vision-goal .content {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+        width: 100%;
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .core-values .box {
+        margin: 0;
+        width: 80%;
+    }
+
+    .achievements {
+        .title {
+            margin-top: 2rem;
+        }
+        
+        .title h1 {
+            font-size: 8vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        gap: 1.62rem;
+        
+        .content {
+            width: 80%;
+            margin: 0;
+            font-size: 3vw;
+        }
+    }
+
+    .core-values .title {
+        margin: 2.6rem 0;
+        h1 {
+            font-size: 8vw;
+        }
+    }
+
+    .core-values .box {
+        p {
+            font-size: 2.4vw;
+        }
+    }
+
+    dialog {
+        h1 {
+            font-size: 7vw;
+        }
+
+        p {
+            font-size: 3vw;
+            font-weight: 300;
+        }
+    }
 }

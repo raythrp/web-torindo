@@ -84,7 +84,9 @@ footer p, a {
     footer {
         width: 100%;
         padding: 6vw;
+        padding-top: 10vh;
     }
+
     footer .content {
         display: flex;
         width: 100%;
@@ -103,6 +105,11 @@ footer p, a {
     footer .profile {
         display: flex;
         flex-direction: column;
+    }
+
+    footer .profile img {
+        width: 30vw;
+        border: 1px solid grey;
     }
 
     footer .profile .text {
