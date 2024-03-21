@@ -29,3 +29,18 @@
     align-items: center;
 }
 /* Responsive adjustments */
+
+@media (max-width: 800px) {
+    .contact-details {
+        flex-direction: column;
+        margin: 3rem;
+        margin-bottom: 0;
+        gap: 2rem;
+        img {
+            width: 20vw;
+        }
+        h1 {
+            font-size: 4vw;
+        }
+    }
+}
