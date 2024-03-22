@@ -32,12 +32,12 @@
                 <p><span>Parts &</span> Services</p>
             </div>
             <div class="isi2">
+                <div class="img2">
+                    <img id="parts" src="public/img/Diesel.png" alt="Parts">
+                </div>
                 <div class="text2">
                         <h1><span id="h1">Mining</span> Component & Parts</h1>
                         <p>Brand new, crucial inner working parts with<span> Excellent reabillity & outstanding perform output</span> high-speed engine & gearbox suited for all purpose mining activities. <span>Durable</span> and <span>field-tested</span> differential and brakes available with the best quality.
-                </div>
-                <div class="img2">
-                    <img src="public/img/Diesel.png" alt="Parts">
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="isi1">
                 <div class="img1">
-                    <img src="public/img/System.png" alt="Safety Device">
+                    <img id="safety" src="public/img/System.png" alt="Safety Device">
                 </div>
                 <div class="text1">
                         <p id="p1">The best fire suppression system on the market, widely used for vehicular applications and <span>highly applicable</span> for mining truck usage.</h1>
@@ -64,12 +64,12 @@
                 <a href="umrah"><span>Umrah Travel & </span>Services</a>
             </div>
             <div class="isi2">
+                <div class="img2">
+                    <img src="public/img/kaaba.png" alt="kaaba" id="img2">
+                </div>
                 <div class="text2">
                         <h1 id="h2">Journey With <span>Heart</span></h1>
                         <p id="p2">Pahami alur dan rangkaian <span>Umroh</span> bersama <span>Kami</span></p>
-                </div>
-                <div class="img2">
-                    <img src="public/img/kaaba.png" alt="kaaba" id="img2">
                 </div>
             </div>
         </div>
