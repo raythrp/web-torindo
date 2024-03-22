@@ -6,6 +6,15 @@
     <link rel="stylesheet" href="public/css/styles-header.css">
     <link rel="icon" type="image/x-icon" href="public/img/torindoLogo.jpg">
     <title><?= $title ?></title>
+    <meta property="og:title" content> 
+    <meta property="og:description" content="The whole set of solutions provided to create greater value for customers. Torindo Jaya Persada strives to commit in “Serving Better Support”. To achieve this, we will constantly work to be a reliable partner who adds real value to the businesses of our customers. The ultimate goal for us is to achieve consistent business growth andprofitability. We accomplish this by developing lasting partnerships with
+our customers, taking advantage of the latest technological advances and
+being a good corporate citizen."> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:image" content="public/img/torindoLogo.jpg"> 
+    <meta property="og:url" content="https://www.torindojaya.com"> 
+    <meta property="og:site_name" content="Torindo Jaya Persada"> 
+
 </head>
 <body>
     <!-- <div class="blocker">
