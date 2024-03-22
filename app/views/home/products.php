@@ -9,6 +9,7 @@
             </div>
         </div>
 
+        <div class="wrapper">
         <div id="page1" class="page1">
             <div class="header1">
                 <img src="public/icon/helmet.svg" alt="helmet"/>
@@ -87,5 +88,6 @@
                         <p><span>ONE EMPLOYEE AT A TIME</span></p>
                 </div>
             </div>
+        </div>
         </div>
     </main>

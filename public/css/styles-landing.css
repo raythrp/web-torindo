@@ -259,52 +259,149 @@ h1.italic {
 
 /* Responsive adjustments */
 
-@media only screen and (max-device-width: 768px){
+@media (max-device-width: 800px){
     body{
         overflow-x: hidden;
     }
     .wrapper {
         height: 100%;
-        width: 200%;
+        width: 100%;
+
     }
 
     h1.italic {
-        font-size: 6rem;
+        font-size: 2.5rem;
     }
 
-    .container-box{
-        margin-left: -5.2rem;
-    }
-
-    .biggest-box{
-        font-size:1.5rem;
-        padding:1rem;
-    }
-
-    .years .text{
+    .years {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem 1rem 5.5rem 2rem;  
+        gap: 1rem;
+    }
+    
+    .years #ten{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 5rem;
+        color: white;
+        transform: rotate(-4deg);
+    }
+    
+    .years #text1{
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+        color: white;
+        transform: rotate(-2deg);
+    }
+    
+    .years #span1{
+        font-style: italic;
+        font-weight: 800;
+        color: #27A4D8;
+    }
+    
+    .years #span2{
+        font-weight: 600;
     }
 
     .global {
-        margin: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        margin: 0 2rem;
+    }
+    
+    .global h2{
+        font-size: 2rem;
+        width: 21rem;
+    }
+    
+    .global #span1{
+        color: #27A4D8;
+        font-style: italic;
+    }
+    
+    .global-p {
+        font-size: 1.5rem;
+        width: 24rem;
     }
 
     .invest {
-        margin: 4rem 3rem;
+        margin: 3rem 1rem;
+    }
+    
+    .invest h2{
+        font-size: 2rem;
+    }  
+    
+    .invest p{
+        font-size: 1.2rem;
+        width: 22rem;
     }
 
+    .icons {
+        margin: 6rem 1rem 5rem 1rem;
+        gap: 3rem;
+    }
+    
+    .icon1{
+        width:25rem;
+        gap: 1rem;
+    }
+    
+    .icon1 #icon01{
+        width: 3rem;
+    }
+    
+    .icon1 #icon02{
+        width: 3.5rem;
+    }
+    
+    .icon1 .icon01{
+        font-size:0.8rem;
+    }
+    
+    .icon1 .icon02{
+        font-size:0.8rem;
+        width: 20rem;
+    }
+    
+    .icon1 .icon03{
+        font-size:0.8rem;
+        font-weight:700;
+    }
+    
     .icon2{
         width: 80%;
     }
-
+    
+    .icon2 #icon01{
+        width: 3.5rem;
+    }
+    
     .icon2 .icon01{
-        max-width:30vh;
+        font-size:0.8rem;
+        font-weight:700;
+        width:15rem;
     }
-
-    .icon2 .icon02 img{
-        width: 5rem;
-        margin: 1rem 0 1.5rem 0;
+    
+    .icon2 .icon02{
+        font-size:0.8rem;
+        font-weight:700;
+        width:10rem;
     }
-
+    
+    .know p {
+        margin-top: 1rem;
+        color:white;
+        font-size: 1.5rem;
+    }
+    
+    #get{
+        margin-top:1rem;
+        padding:10px 20px;
+    }
 }
