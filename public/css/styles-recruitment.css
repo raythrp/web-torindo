@@ -82,3 +82,33 @@
 }
 /* Responsive adjustments */
 
+@media (max-width: 800px) {
+    .recruitment-motto h1 {
+        font-size: 8vw;
+    }
+
+    .services .title {
+        margin-top: 4rem;
+        h1 {
+            font-size: 8vw;
+        }
+        p {
+            font-size: 3vw;
+        }
+    }
+
+    .service {
+        margin: 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .roadmap {
+        margin: 0;
+        width: 100vw;
+        img {
+            max-width: 100%;
+        }
+    }
+}
