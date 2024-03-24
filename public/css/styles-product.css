@@ -228,6 +228,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+
     }
     
     .text1 h1 {
@@ -241,8 +242,8 @@
         font-size: 3vw;
         text-align: center;
         font-weight: 300;
-        width: 20rem;
-        margin-left: -04rem;
+        width: 19rem;
+        margin-left: -4rem;
     }
     
     .text1 span, .text2 span{
@@ -289,16 +290,17 @@
 
     .text2 h1 {
         font-weight: 400;
+
         text-align: center;
-        width: 20rem;
-        margin: 3rem 0rem 1rem -3.9rem ;
+        width: 18rem;
+        margin: 3rem 0rem 1rem -3.5rem ;
         font-size: 6vw;
     }
     
     .text2 p{
         font-size: 3vw;
         text-align: center;
-        width:20rem;
+        width:18.5rem;
         margin-left:-4rem;
     }
 
