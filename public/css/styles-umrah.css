@@ -39,32 +39,28 @@
 }
 /* Responsive adjustments */
 @media (max-width: 800px){ 
-    .txt{
-        text-align: center;
-        margin: 10rem 0;
-        font-weight: 700;
-        font-size: 1.3rem;
-        height: 100%;
+    .wrapper > div {
+        margin: 1rem;
+        padding: 2rem;
     }
-    
-    .txt #umrah{
-        text-align: center;
-        font-weight: normal;
-        margin-top: 3rem;
-        width: 25rem;
-    }
-    
-    .cont{
+    .wrapper .txt {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-size: 1rem;
-    }
-    
-    .cont #number{
         text-align: center;
-        font-weight: 700;
-        margin-bottom: 10rem;
+        font-size: 3vw;
+        justify-content: center;
+        margin: 0;
+        width: 100vw;
+        p#umrah {
+            margin: 2rem 0 0 0 ;
+            width: 100%;
+        }
+    }
+
+    .cont {
+        font-size: 4vw;
+        height: 100%;
+        p#number {
+            margin: 0;
+        }
     }
 }
