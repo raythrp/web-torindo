@@ -202,11 +202,11 @@
     }   
     
     .header1 p{
-        font-size: 8vw;
+        font-size: 7vw;
     }
 
     .header1 a{
-        font-size: 8vw;
+        font-size: 6vw;
         text-align: center;
     }
 
@@ -219,9 +219,9 @@
         padding-left: 0rem;
     }
     
-    .img1,.img2 {
-        width:80%;
-        margin-bottom: -9rem;
+    .img1,.img2{
+        width:50%;
+        margin-bottom: -15rem;
     }
 
     .text1, .text2{
@@ -231,17 +231,18 @@
     }
     
     .text1 h1 {
+        display: flex;
         font-weight: 400;
         margin-bottom: 10px;
     }
     
     
     .text1 p {
-        font-size: 1rem;
+        font-size: 3vw;
         text-align: center;
         font-weight: 300;
-        width: 25rem;
-        margin-left: -6rem;
+        width: 20rem;
+        margin-left: -04rem;
     }
     
     .text1 span, .text2 span{
@@ -261,7 +262,7 @@
     }
 
     .text1 #p1{
-        margin-top:5rem;
+        margin-top:3rem;
     }
     
     .page2 {
@@ -283,36 +284,51 @@
     }
     
     .img2 img{
-        width: 102%;
+        width: 100%;
     }
 
     .text2 h1 {
         font-weight: 400;
         text-align: center;
         width: 20rem;
-        margin: 6rem 0rem 1rem -3.5rem ;
+        margin: 3rem 0rem 1rem -3.9rem ;
+        font-size: 6vw;
     }
     
     .text2 p{
-        font-size: 1.5rem;
+        font-size: 3vw;
         text-align: center;
-        width:25rem;
-        margin-left:-6.3rem;
+        width:20rem;
+        margin-left:-4rem;
+    }
+
+
+
+    .page3{
+        margin-top:-8rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img3{
+        width: 50%;
+    }
+
+    .img3 img{
+        width: 100%;
     }
 
     .isi3{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 5rem;
     }
     
     .text3 {
         margin-top:5vh;
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 3vw;
         font-weight: 300;
-        width: 25rem;
+        width: 13rem;
     } 
 }

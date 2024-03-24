@@ -270,7 +270,7 @@ h1.italic {
     }
 
     h1.italic {
-        font-size: 2.5rem;
+        font-size: 10vw;
     }
 
     .years {
@@ -284,14 +284,14 @@ h1.italic {
     .years #ten{
         font-style: italic;
         font-weight: 800;
-        font-size: 5rem;
+        font-size: 18vw;
         color: white;
         transform: rotate(-4deg);
     }
     
     .years #text1{
-        font-size: 1rem;
-        padding-bottom: 1.5rem;
+        font-size: 3vw;
+        padding-bottom: 1rem;
         color: white;
         transform: rotate(-2deg);
     }
@@ -311,12 +311,12 @@ h1.italic {
         flex-direction: column;
         justify-content: center;
         align-items: end;
-        margin: 0 2rem;
+        margin: 0 1rem;
     }
     
     .global h2{
-        font-size: 2rem;
-        width: 21rem;
+        font-size: 8vw;
+        width: 22rem;
     }
     
     .global #span1{
@@ -324,9 +324,9 @@ h1.italic {
         font-style: italic;
     }
     
-    .global-p {
-        font-size: 1.5rem;
-        width: 24rem;
+    .global p {
+        font-size: 3vw;
+        width: 70rem;
     }
 
     .invest {
@@ -334,12 +334,11 @@ h1.italic {
     }
     
     .invest h2{
-        font-size: 2rem;
+        font-size: 8vw;
     }  
     
     .invest p{
-        font-size: 1.2rem;
-        width: 22rem;
+        font-size: 3vw;
     }
 
     .icons {
@@ -348,29 +347,29 @@ h1.italic {
     }
     
     .icon1{
-        width:25rem;
+        width:90vw;
         gap: 1rem;
     }
     
     .icon1 #icon01{
-        width: 3rem;
+        width: 2.5rem;
     }
     
     .icon1 #icon02{
-        width: 3.5rem;
+        width: 3rem;
     }
     
     .icon1 .icon01{
-        font-size:0.8rem;
+        font-size:3vw;
     }
     
     .icon1 .icon02{
-        font-size:0.8rem;
+        font-size:3vw;
         width: 20rem;
     }
     
     .icon1 .icon03{
-        font-size:0.8rem;
+        font-size:3vw;
         font-weight:700;
     }
     
@@ -379,17 +378,17 @@ h1.italic {
     }
     
     .icon2 #icon01{
-        width: 3.5rem;
+        width: 3rem;
     }
     
     .icon2 .icon01{
-        font-size:0.8rem;
+        font-size:3vw;
         font-weight:700;
         width:15rem;
     }
     
     .icon2 .icon02{
-        font-size:0.8rem;
+        font-size:3vw;
         font-weight:700;
         width:10rem;
     }
@@ -397,11 +396,12 @@ h1.italic {
     .know p {
         margin-top: 1rem;
         color:white;
-        font-size: 1.5rem;
+        font-size: 7vw;
+        text-align: center;
     }
     
     #get{
         margin-top:1rem;
-        padding:10px 20px;
+        padding:5px 20px;
     }
 }
