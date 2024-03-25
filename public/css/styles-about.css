@@ -178,7 +178,7 @@
     gap: 10%;
 }
 
-.core-values .box .top .ethical, .employee-development, .demanding,  .proactive, .respectful {
+.top div, .bottom div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,21 +186,16 @@
     width: 18vw;
     height: 18vw;
     border-radius: 1rem;
-    background-color: rgb(203, 203, 203);
+    background-image: linear-gradient(to right, grey , white);
     color: black;
     transition: 100ms;
 }
 
-.core-values:hover .box:hover .top:hover .ethical:hover, .employee-development:hover, .demanding:hover {
+.top div:hover, .bottom div:hover {
     transition: 100ms;
-    font-weight: 700;
-    background-color: white;
-    color: #004AAD;
-    cursor: pointer;
-    border: solid grey 0.4rem;
-}
-
-.core-values:hover .box:hover .bottom:hover .proactive:hover, .respectful:hover {
+    p {
+        font-weight: 700;
+    }
     background-color: white;
     color: #004AAD;
     cursor: pointer;
@@ -403,10 +398,10 @@ dialog::backdrop {
             font-size: 2.4vw;
         }
         .top div, .top .ethical {
-            background-color: white;
+            background-image: linear-gradient(to right, grey , white);
         }
         .bottom div {
-            background-color: white;
+            background-image: linear-gradient(to right, grey , white);
         }
     }
 
