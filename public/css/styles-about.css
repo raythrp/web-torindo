@@ -178,7 +178,7 @@
     gap: 10%;
 }
 
-.top div, .bottom div {
+.box .top div, .bottom div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,7 +191,7 @@
     transition: 100ms;
 }
 
-.top div:hover, .bottom div:hover {
+.box .top div:hover, .bottom div:hover {
     transition: 100ms;
     p {
         font-weight: 700;
