@@ -64,20 +64,20 @@
                     <div class="ethical" data-modal-id="modal1">
                         <p>Ethical</p>
                     </div>
-                    <div class="employee-development" data-modal-id="modal2">
-                        <p>Employee</p>
-                        <p>Development</p>
+                    <div class="proactive" data-modal-id="modal4">
+                        <p>Proactive</p>
                     </div>
                     <div class="demanding" data-modal-id="modal3">
                         <p>Demanding</p>
                     </div>
                 </div>
                 <div class="bottom">
-                    <div class="proactive" data-modal-id="modal4">
-                        <p>Proactive</p>
-                    </div>
                     <div class="respectful" data-modal-id="modal5">
                         <p>Respectful</p>
+                    </div>
+                    <div class="employee-development" data-modal-id="modal2">
+                        <p>Employee</p>
+                        <p>Development</p>
                     </div>
                 </div>
             </div>

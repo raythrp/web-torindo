@@ -263,6 +263,11 @@ h1.italic {
     body{
         overflow-x: hidden;
     }
+
+    .motto h1 {
+        text-transform: uppercase;
+    }
+
     .wrapper {
         height: 100%;
         width: 100%;
